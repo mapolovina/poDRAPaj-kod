@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+/* style for body division */
+#body {
+	-webkit-margin: 25px;
+	-moz-margin: 25px;
+	margin: 25px;
+}
+
+/* style for title */
+#title {
+	-webkit-position: relative;
+	-moz-position: relative;
+	position: relative;
+	-webkit-font-family: Palatino;
+	-moz-font-family: Palatino;
+	font-family: Palatino;
+	background: no-repeat 7% center,
+		-webkit-gradient(linear, left-top, left-bottom, color-stop(0.00, #004c15), color-stop(1.00, #09c300));
+	background: no-repeat 7% center,
+		-webkit-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		-moz-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		-o-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		-ms-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		linear-gradient(#004c15, #09c300);
+	-webkit-padding-left: 25px;
+	-moz-padding-left: 25px;
+	padding-left: 25px;
+	-webkit-padding-top: 15px;
+	-moz-padding-top: 15px;
+	padding-top: 15px;
+	-webkit-padding-bottom: 15px;
+	-moz-padding-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+/* style for game explanations */
+#explanation {
+	-webkit-position: relative;
+	-moz-position: relative;
+	position: relative;
+	-webkit-margin-bottom: 15px;
+	-moz-margin-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+/* style for post form */
+#form {
+	-webkit-position: relative;
+	-moz-position: relative;
+	position: relative;
+	-webkit-margin-bottom: 60px;
+	-moz-margin-bottom: 60px;
+	margin-bottom: 60px;
+}
+
+/* style for text in witch you can find company mail */
+#mail {
+	-webkit-position: relative;
+	-moz-position: relative;
+	position: relative;
+	-webkit-margin-bottom: 95px;
+	-moz-margin-bottom: 95px;
+	margin-bottom: 95px;
+}
+
+/* style for image in comments */
+#image {
+	-webkit-width: 125px;
+	-webkit-height: 100px;
+	-moz-width: 125px;
+	-moz-height: 100px;
+	width: 125px;
+	height: 100px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-margin-top: 5px;
+	-moz-margin-top: 5px;
+	margin-top: 5px;
+	-webkit-margin-bottom: 5px;
+	-moz-margin-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+/* style for author name */
+#my_name {
+	-webkit-color: green;
+	-moz-color: green;
+	color: green;
+}
+
+/* style for comment details (time, links, etc.) */
+#comments_details {
+	-webkit-margin-top: 5px;
+	-moz-margin-top: 5px;
+	margin-top: 5px;
+	-webkit-margin-bottom: 0px;
+	-moz-margin-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+/* style for comment */
+#comments_text {
+	-webkit-position: relative;
+	-moz-position: relative; 
+	position: relative;
+	-webkit-padding-top: 30px;
+	-moz-padding-top: 30px;
+	padding-top: 30px;
+}
+
+/* style for twitter share button */
+.twitter-share-button {
+	-webkit-margin-left: 14px;
+	-moz-margin-left: 14px;
+	margin-left: 14px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- utf-8 -->
+  <meta charset="utf-8"> 
+  <title>poDRAPaj kod</title>
+
+  <!-- css and javascript !-->
+  <link rel="stylesheet" type="text/css" href="uikit-2.6.0/css/uikit.almost-flat.css">
+  <link rel="stylesheet" type="text/css" href="Messi-master/messi.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="vex-2.0.1/css/vex.css">
+  <link rel="stylesheet" type="text/css" href="vex-2.0.1/css/vex-theme-top.css">
+  <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="uikit-2.6.0/js/uikit.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="Messi-master/messi.js"></script>
+  <script src="vex-2.0.1/js/vex.combined.min.js"></script>
+
+</head>
+<body onload="body();"> 
+
+  <!-- responsive main division !-->
+  <div id="main" class="uk-grid">
+
+    <!-- our page title !-->
+    <div class="uk-width-large-1-1">
+      <div class="uk-panel-title">
+        <h1 id="title"> Bok <i onclick="user_name();"> Marko Polovina </i> </h1> 
+      </div>
+    </div>
+
+    <!-- body division !-->
+    <div id="body">
+
+      <!-- division for explanation !-->
+      <div id="explanation" class="uk-width-1-1">
+        <p>Upiši kod ovdje (svi kodovi su u formatu <span>CD</span><span> i 4 znamenke</span>):</p>
+      </div>
+
+      <!-- form -> post method !-->
+      <div id="form" class="uk-width-1-1">
+        <form accept-charset="UTF-8" class="uk-form uk-animation-slide-right" onsubmit="return form();" method="post">
+          <input id="" type="text" placeholder="Write something :)" />
+        </form>
+      </div>
+
+      <!-- division for mail sending !-->
+      <div id="mail" class="uk-width-1-1">
+        <p> Vidi, ova stranica treba malo ljubavi. Kako bi izgledala da ti dobiješ ovaj posao? Malo ju uredi i pošalji screenshot i css na 
+          <a href="mailto:posao@drap.hr" id="job_mail">posao@drap.hr</a>! 
+        </p>
+      </div>
+
+      <!-- division for comments !-->
+      <br>
+      <article id="comments" class="uk-comment-primary uk-width-1-1">
+        <header class="uk-comment-header uk-align-medium-left">
+          <img id="image" class="uk-comment-avatar" src="marko.jpeg">
+          <h4 id="my_name" class="uk-comment-title"> Marko </h4>
+          <div id="comments_details" class="uk-comment-meta"> 
+            <p> 1 day ago | <a href="http://mapolovina.blog.hr/">Blog</a> | <a href="https://twitter.com/mapolovina">#mapolovina</a> </p>
+          </div>
+        </header>
+
+        <!-- comment !-->
+        <div id="comments_text" class="uk-comment-body"> 
+          <p> Like us on Facebook! Share us on Twitter! :) </p> 
+            <!-- facebook like button !-->
+            <iframe class="facebook-like-button" src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fdrap.hr&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true">
+            </iframe> 
+            <br>
+            <!-- twitter share button !-->
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/draphr">Tweet
+            </a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script>
+
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</body>
+</html>
