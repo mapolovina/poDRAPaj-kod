@@ -34,8 +34,11 @@ This is my first web app in which I used Messi ([Messi](http://marcosesperon.es/
 
 Vex Dialog exposes 4 main apis:
 1. vex.dialog.alert(stringOrOptions)
+
 2. vex.dialog.confirm(options)
+
 3. vex.dialog.prompt(options)
+
 4. vex.dialog.open(options)
 
 (Internally, alert, confirm, and prompt call open with a different compositions of options.)
