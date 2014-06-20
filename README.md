@@ -33,6 +33,7 @@ This is my first web app in which I used Messi ([Messi](http://marcosesperon.es/
 
 
 Vex Dialog exposes 4 main apis:
+
 1. vex.dialog.alert(stringOrOptions)
 
 2. vex.dialog.confirm(options)
